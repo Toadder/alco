@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <style>
+      body {
+        opacity: 0;
+        background-color: #fff;
+      }
+    </style>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Russo+One&display=swap&_v=20220513090504"
+      rel="stylesheet"
+    />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220513090504"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20220513090504" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- .header -->
+      <header class="header">
+        <div class="header__body">
+          <div class="header__top top-header">
+            <div class="top-header__container">
+              <div class="top-header__body">
+                <div class="top-header__wrapper">
+                  <div class="top-header__logo logo">
+                    <span class="logo__left">ALKO</span>
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/40x40.gif/fff/fff"
+                      data-src="img/logo.svg"
+                      alt=""
+                    />
+                    <span class="logo__right">CLUB</span>
+                  </div>
+                  <div class="top-header__slogan">Сервис доставки 24/7</div>
+                </div>
+                <div class="top-header__phone _phone">
+                  <a href="tel:+78129568009" class="_phone__top">
+                    <span class="_phone__icon _icon-phone"></span>
+                    <span class="_phone__text">956-80-09</span>
+                  </a>
+                  <a href="#ring_popup" class="_phone__bottom popup-link">
+                    Заказать звонок
+                  </a>
+                </div>
+                <div class="top-header__points">
+                  <div class="top-header__point _point _point_non_stop">
+                    <span class="_point__icon _icon-non_stop"></span>
+                    <span class="_point__text"> Работаем круглосуточно </span>
+                  </div>
+                  <div class="top-header__point _point">
+                    <span class="_point__icon _icon-location"></span>
+                    <span class="_point__text"> Санкт-Петербург </span>
+                  </div>
+                </div>
+                <div class="top-header__search">
+                  <input type="text" placeholder="Поиск по каталогу" />
+                  <button class="top-header__icon _icon-search"></button>
+                </div>
+                <div class="top-header__actions">
+                  <a href="#!" class="top-header__cart _cart">
+                    <div class="_cart__summ">10 765 руб</div>
+                    <div class="_cart__details">
+                      <div class="_cart__icon _icon-cart">
+                        <div class="_cart__count">999</div>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="top-header__burger">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom bottom-header">
+            <div class="bottom-header__container">
+              <div class="bottom-header__body">
+                <div class="bottom-header__dropdown">
+                  <div class="bottom-header__dropdown-inner">
+                    <div>Каталог товаров</div>
+                    <svg
+                      class="bottom-header__dropdown-icon"
+                      width="29"
+                      height="16"
+                      viewBox="0 0 29 16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="29" height="2" rx="1" />
+                      <rect y="7" width="29" height="2" rx="1" />
+                      <rect y="14" width="29" height="2" rx="1" />
+                    </svg>
+                  </div>
+                  <ul class="bottom-header__sublist">
+                    <li><a href="#!">ВИНО</a></li>
+                    <li><a href="#!">ПИВО</a></li>
+                    <li><a href="#!">ШАМПАНСКОЕ</a></li>
+                    <li><a href="#!">ЛИКЕР</a></li>
+                    <li><a href="#!">ВОДКА</a></li>
+                    <li><a href="#!">ВИСКИ</a></li>
+                    <li><a href="#!">КОНЬЯК</a></li>
+                    <li><a href="#!">РОМ</a></li>
+                    <li><a href="#!">ТЕКИЛА</a></li>
+                    <li><a href="#!">ВЕРМУТ</a></li>
+                    <li><a href="#!">ДЖИН</a></li>
+                    <li><a href="#!">НУЖНОЕ</a></li>
+                  </ul>
+                </div>
+                <nav class="bottom-header__nav">
+                  <ul class="bottom-header__list">
+                    <li><a href="#!">Главная</a></li>
+                    <li><a href="#!">Доставка и оплата</a></li>
+                    <li><a href="#!">О нас</a></li>
+                    <li><a href="#!">Блог</a></li>
+                    <li><a href="#!">Акции</a></li>
+                    <li><a href="#!">Контакты</a></li>
+                  </ul>
+                </nav>
+                <div class="top-header__search">
+                  <input type="text" placeholder="Поиск по каталогу" />
+                  <button class="top-header__icon _icon-search"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /.header -->
+
+      <!-- .main -->
+      <main class="main">
+        <!-- .intro -->
+        <section
+          class="intro"
+          style="background-image: url('img/index-page/intro/1.jpg')"
+        >
+          <div class="intro__container">
+            <div class="intro__body">
+              <p class="intro__uptitle">
+                Привезем за 30 минут в любой район Спб
+              </p>
+              <h1 class="intro__title">
+                Доставка алкоголя на дом в <br />
+                Санкт-Петербурге
+              </h1>
+              <a href="tel:+78129568009" class="_phone__top intro__phone">
+                <span class="_phone__icon _icon-phone"></span>
+                <span class="_phone__text">956-80-09</span>
+              </a>
+              <a href="#!" class="intro__link _blur-btn">
+                <span class="_blur-btn__text">Перейти в каталог</span>
+                <span class="_blur-btn__icon _icon-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- /.intro -->
+
+        <!-- .benefit -->
+        <div class="benefit">
+          <div class="benefit__container">
+            <div class="benefit__body">
+              <div class="benefit__flex">
+                <div class="benefit__item">
+                  <div class="benefit__icon">
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/50x50.gif/fff/fff"
+                      data-src="img/index-page/benefit/1.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="benefit__title">Качественная продукция</div>
+                  <p class="benefit__text">
+                    Мы занимаемся реализацией исключительно качественной
+                    продукции, которая имеет все необходимые документы
+                  </p>
+                </div>
+                <div class="benefit__item">
+                  <div class="benefit__icon">
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/50x50.gif/fff/fff"
+                      data-src="img/index-page/benefit/2.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="benefit__title">Доставка прямо до двери</div>
+                  <p class="benefit__text">
+                    Мы исключаем любые задержки с нашей стороны, а время
+                    доставки составляет не более 40 минут
+                  </p>
+                </div>
+                <div class="benefit__item">
+                  <div class="benefit__icon">
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/50x50.gif/fff/fff"
+                      data-src="img/index-page/benefit/3.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="benefit__title">Оптимальная стоимость</div>
+                  <p class="benefit__text">
+                    Мы уважаем и ценим всех своих клиентов, предоставляя им
+                    возможность опробовать нашу продукцию по разумной и
+                    доступной цене
+                  </p>
+                </div>
+                <div class="benefit__item">
+                  <div class="benefit__icon">
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/50x50.gif/fff/fff"
+                      data-src="img/index-page/benefit/4.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="benefit__title">Вежливые курьеры</div>
+                  <p class="benefit__text">
+                    Все сотрудники, которые работаю в нашей организации
+                    отличаются вежливостью, тактичностью и отличным чувством
+                    юмора
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.benefit -->
+
+        <!-- .offer -->
+        <section class="offer">
+          <div class="offer__container">
+            <div class="offer__body">
+              <h2 class="offer__title _title">Лучшие предложения недели</h2>
+              <!-- .product-slider -->
+              <div class="product-slider__outer">
+                <div class="product-slider swiper offer__slider">
+                  <div class="product-slider__wrapper swiper-wrapper">
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 l Водка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/2.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/2.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ВИСКИ БАЛАНТАЙС 0.7L ВИСКИ БАЛАНТАЙС 0.7L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1700 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/3.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/3.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ПИВО ХАЙНЕКЕН 0.5L ПИВО ХАЙНЕКЕН 0.5L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">150 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 l Водка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/2.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/2.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ВИСКИ БАЛАНТАЙС 0.7L ВИСКИ БАЛАНТАЙС 0.7L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1700 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/3.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/3.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ПИВО ХАЙНЕКЕН 0.5L ПИВО ХАЙНЕКЕН 0.5L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">150 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                  </div>
+                </div>
+                <div class="product-slider__prev offer__prev">
+                  <svg
+                    width="28"
+                    height="16"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.292891 7.29289C-0.0976334 7.68342 -0.0976334 8.31658 0.292891 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292891 7.29289ZM28 7L0.999998 7V9L28 9V7Z"
+                      fill="#A9A9A9"
+                    />
+                  </svg>
+                </div>
+                <div class="product-slider__next offer__next">
+                  <svg
+                    width="28"
+                    height="16"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M27.7071 7.29289C28.0976 7.68342 28.0976 8.31658 27.7071 8.70711L21.3431 15.0711C20.9526 15.4616 20.3195 15.4616 19.9289 15.0711C19.5384 14.6805 19.5384 14.0474 19.9289 13.6569L25.5858 8L19.9289 2.34315C19.5384 1.95262 19.5384 1.31946 19.9289 0.928932C20.3195 0.538408 20.9526 0.538408 21.3431 0.928932L27.7071 7.29289ZM0 7L27 7V9L0 9L0 7Z"
+                      fill="#A9A9A9"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- /.product-slider -->
+            </div>
+          </div>
+        </section>
+        <!-- /.offer -->
+        <!-- .info -->
+        <div
+          class="info"
+          style="background-image: url('img/index-page/info/1.jpg')"
+        >
+          <div class="info__container">
+            <div class="info__body">
+              <div class="info__logo logo">
+                <span class="logo__left">ALKO</span>
+                <img
+                  class="lazy-image"
+                  src="https://dummyimage.com/40x40.gif/fff/fff"
+                  data-src="img/logo.svg"
+                  alt=""
+                />
+                <span class="logo__right">CLUB</span>
+              </div>
+              <p class="info__text">
+                Компания радует наших клиентов уже более трех лет. <br />
+                Мы доставляем качественную продукцию в любую точку
+                Санкт-Петербурга. <br />
+                Не знаете где заказать алкоголя на праздник или встречу с
+                друзьями? <br />
+                Мы решим это за вас! Только у нас высококачественный
+                сертифицированный алкоголь по приятным ценам!
+              </p>
+              <a href="#!" class="info__link _blur-btn">
+                <span class="_blur-btn__text">Перейти в каталог</span>
+                <span class="_blur-btn__icon _icon-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /.info -->
+
+        <!-- .hot -->
+        <section class="hot">
+          <div class="hot__container">
+            <div class="hot__body">
+              <h2 class="hot__title _title">ХИТЫ ПРОДАЖ!</h2>
+              <!-- .product-slider -->
+              <div class="product-slider__outer">
+                <div class="product-slider swiper hot__slider">
+                  <div class="product-slider__wrapper swiper-wrapper">
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 l Водка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/2.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/2.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ВИСКИ БАЛАНТАЙС 0.7L ВИСКИ БАЛАНТАЙС 0.7L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1700 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/3.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/3.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ПИВО ХАЙНЕКЕН 0.5L ПИВО ХАЙНЕКЕН 0.5L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">150 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 l Водка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/2.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/2.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ВИСКИ БАЛАНТАЙС 0.7L ВИСКИ БАЛАНТАЙС 0.7L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1700 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/3.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/3.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          ПИВО ХАЙНЕКЕН 0.5L ПИВО ХАЙНЕКЕН 0.5L
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">150 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                    <div class="product-slider__slide swiper-slide">
+                      <!-- .product-item -->
+                      <div class="product-item">
+                        <div class="product-item__img">
+                          <picture
+                            ><source
+                              srcset="https://dummyimage.com/153x194/fff/fff"
+                              data-srcset="img/items/1.webp"
+                              type="image/webp" />
+                            <img
+                              class="swiper-lazy"
+                              src="https://dummyimage.com/153x194/fff/fff"
+                              data-src="img/items/1.jpg"
+                              alt=""
+                          /></picture>
+                        </div>
+                        <div class="product-item__title">
+                          Водка Хортица 0.5 lВодка Хортица 0.5 l Водка
+                        </div>
+                        <div class="product-item__flex">
+                          <div class="product-item__price">1200 руб</div>
+                          <div class="product-item__hint">
+                            <div class="product-item__qn">?</div>
+                            <div class="product-item__baloon">
+                              <span>Доставка включена в стоимость</span>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="#fast_order"
+                          class="product-item__buy popup-link"
+                          >Купить в 1 клик</a
+                        >
+                        <a
+                          href="#cart_popup"
+                          class="product-item__cart _btn popup-link"
+                        >
+                          <span class="_btn__text">В корзину</span>
+                          <span class="_btn__icon _icon-to_cart"></span>
+                        </a>
+                      </div>
+                      <!-- /.product-item -->
+                    </div>
+                  </div>
+                </div>
+                <div class="product-slider__prev hot__prev">
+                  <svg
+                    width="28"
+                    height="16"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.292891 7.29289C-0.0976334 7.68342 -0.0976334 8.31658 0.292891 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292891 7.29289ZM28 7L0.999998 7V9L28 9V7Z"
+                      fill="#A9A9A9"
+                    />
+                  </svg>
+                </div>
+                <div class="product-slider__next hot__next">
+                  <svg
+                    width="28"
+                    height="16"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M27.7071 7.29289C28.0976 7.68342 28.0976 8.31658 27.7071 8.70711L21.3431 15.0711C20.9526 15.4616 20.3195 15.4616 19.9289 15.0711C19.5384 14.6805 19.5384 14.0474 19.9289 13.6569L25.5858 8L19.9289 2.34315C19.5384 1.95262 19.5384 1.31946 19.9289 0.928932C20.3195 0.538408 20.9526 0.538408 21.3431 0.928932L27.7071 7.29289ZM0 7L27 7V9L0 9L0 7Z"
+                      fill="#A9A9A9"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <!-- /.product-slider -->
+            </div>
+          </div>
+        </section>
+        <!-- /.hot -->
+        <section class="sale">
+          <div class="sale__container">
+            <div class="sale__body">
+              <h2 class="sale__title _title">СКИДКИ И АКЦИИ</h2>
+              <div class="sale-grid">
+                <div
+                  class="sale-grid__item"
+                  style="background-image: url('img/sale/bg_1.svg')"
+                >
+                  <div class="sale-grid__marker">
+                    <svg
+                      width="42"
+                      height="50"
+                      viewBox="0 0 42 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.9337 33.1078C25.5105 33.1078 25.0874 33.4925 25.0874 34.7811C25.0874 36.0698 25.5105 36.4545 25.9337 36.4545C26.3568 36.4545 26.7799 36.0698 26.7799 34.7811C26.7799 33.4924 26.3568 33.1078 25.9337 33.1078Z"
+                        fill="#FFA800"
+                      />
+                      <path
+                        d="M16.0665 26.7607C15.6433 26.7607 15.2202 27.1455 15.2202 28.4341C15.2202 29.7227 15.6433 30.1075 16.0665 30.1075C16.4896 30.1075 16.9127 29.7227 16.9127 28.4341C16.9127 27.1455 16.4896 26.7607 16.0665 26.7607Z"
+                        fill="#FFA800"
+                      />
+                      <path
+                        d="M35.6405 17.7383C31.4012 13.0562 28.8819 8.93445 27.5148 6.30117C26.0342 3.44894 25.549 1.68029 25.5453 1.66622L25.1046 0L23.5305 0.702085C23.3466 0.784091 18.9976 2.76739 16.5608 7.64093C15.3376 10.0875 15.0929 12.8115 15.1032 14.6657C15.1091 15.7448 14.3446 16.6817 13.2853 16.8935C12.5427 17.0419 11.7787 16.811 11.2427 16.275L8.31074 13.343L7.30214 14.7338C7.19746 14.8782 4.73259 18.2776 4.28385 18.9568C2.09256 22.2739 0.949949 26.1379 0.979565 30.1312C1.01925 35.4645 3.11661 40.4612 6.88527 44.201C10.6537 47.9406 15.6665 50 21.0001 50C32.0396 49.9999 41.0209 41.0186 41.0209 29.9791C41.021 25.9764 39.0599 21.5149 35.6405 17.7383ZM25.9334 38.5316C23.8947 38.5316 22.356 37.1853 22.356 34.7811C22.356 32.3962 23.8946 31.0305 25.9334 31.0305C27.9722 31.0305 29.5109 32.3961 29.5109 34.7811C29.5109 37.1853 27.9721 38.5316 25.9334 38.5316ZM23.9716 24.8758H27.2221L18.0284 38.3392H14.778L23.9716 24.8758ZM12.4892 28.434C12.4892 26.0491 14.0279 24.6835 16.0667 24.6835C18.1055 24.6835 19.6442 26.0491 19.6442 28.434C19.6442 30.8382 18.1055 32.1846 16.0667 32.1846C14.0279 32.1846 12.4892 30.8382 12.4892 28.434Z"
+                        fill="#FFA800"
+                      />
+                    </svg>
+                  </div>
+                  <div class="sale-grid__img">
+                    <picture
+                      ><source
+                        srcset="https://dummyimage.com/100x378.gif/fff/fff"
+                        data-srcset="img/sale/2.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/100x378.gif/fff/fff"
+                        data-src="img/sale/2.png"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="sale-grid__content">
+                    <p>Скидки на вино</p>
+                    <br />
+                    <p style="text-align: right">
+                      <span style="color: #ffa800; font-size: 30px"
+                        >до 30%</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="sale-grid__item"
+                  style="background-image: url('img/sale/bg_2.svg')"
+                >
+                  <!-- <div class="sale-grid__marker">
+      <svg
+        width="42"
+        height="50"
+        viewBox="0 0 42 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25.9337 33.1078C25.5105 33.1078 25.0874 33.4925 25.0874 34.7811C25.0874 36.0698 25.5105 36.4545 25.9337 36.4545C26.3568 36.4545 26.7799 36.0698 26.7799 34.7811C26.7799 33.4924 26.3568 33.1078 25.9337 33.1078Z"
+          fill="#FFA800"
+        />
+        <path
+          d="M16.0665 26.7607C15.6433 26.7607 15.2202 27.1455 15.2202 28.4341C15.2202 29.7227 15.6433 30.1075 16.0665 30.1075C16.4896 30.1075 16.9127 29.7227 16.9127 28.4341C16.9127 27.1455 16.4896 26.7607 16.0665 26.7607Z"
+          fill="#FFA800"
+        />
+        <path
+          d="M35.6405 17.7383C31.4012 13.0562 28.8819 8.93445 27.5148 6.30117C26.0342 3.44894 25.549 1.68029 25.5453 1.66622L25.1046 0L23.5305 0.702085C23.3466 0.784091 18.9976 2.76739 16.5608 7.64093C15.3376 10.0875 15.0929 12.8115 15.1032 14.6657C15.1091 15.7448 14.3446 16.6817 13.2853 16.8935C12.5427 17.0419 11.7787 16.811 11.2427 16.275L8.31074 13.343L7.30214 14.7338C7.19746 14.8782 4.73259 18.2776 4.28385 18.9568C2.09256 22.2739 0.949949 26.1379 0.979565 30.1312C1.01925 35.4645 3.11661 40.4612 6.88527 44.201C10.6537 47.9406 15.6665 50 21.0001 50C32.0396 49.9999 41.0209 41.0186 41.0209 29.9791C41.021 25.9764 39.0599 21.5149 35.6405 17.7383ZM25.9334 38.5316C23.8947 38.5316 22.356 37.1853 22.356 34.7811C22.356 32.3962 23.8946 31.0305 25.9334 31.0305C27.9722 31.0305 29.5109 32.3961 29.5109 34.7811C29.5109 37.1853 27.9721 38.5316 25.9334 38.5316ZM23.9716 24.8758H27.2221L18.0284 38.3392H14.778L23.9716 24.8758ZM12.4892 28.434C12.4892 26.0491 14.0279 24.6835 16.0667 24.6835C18.1055 24.6835 19.6442 26.0491 19.6442 28.434C19.6442 30.8382 18.1055 32.1846 16.0667 32.1846C14.0279 32.1846 12.4892 30.8382 12.4892 28.434Z"
+          fill="#FFA800"
+        />
+      </svg>
+    </div> -->
+                  <div class="sale-grid__content">
+                    <p>
+                      Купи
+                      <span style="color: #ffa800; font-size: 25px">3</span>
+                      любых бутылки вина и получи штопор в подарок
+                    </p>
+                  </div>
+                  <div class="sale-grid__img">
+                    <picture
+                      ><source
+                        srcset="https://dummyimage.com/332x254.gif/fff/fff"
+                        data-srcset="img/sale/4.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/332x254.gif/fff/fff"
+                        data-src="img/sale/4.png"
+                        alt=""
+                    /></picture>
+                  </div>
+                </div>
+                <div class="sale-grid__item">
+                  <div class="sale-grid__marker">
+                    <svg
+                      width="42"
+                      height="50"
+                      viewBox="0 0 42 50"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.9337 33.1078C25.5105 33.1078 25.0874 33.4925 25.0874 34.7811C25.0874 36.0698 25.5105 36.4545 25.9337 36.4545C26.3568 36.4545 26.7799 36.0698 26.7799 34.7811C26.7799 33.4924 26.3568 33.1078 25.9337 33.1078Z"
+                        fill="#FFA800"
+                      />
+                      <path
+                        d="M16.0665 26.7607C15.6433 26.7607 15.2202 27.1455 15.2202 28.4341C15.2202 29.7227 15.6433 30.1075 16.0665 30.1075C16.4896 30.1075 16.9127 29.7227 16.9127 28.4341C16.9127 27.1455 16.4896 26.7607 16.0665 26.7607Z"
+                        fill="#FFA800"
+                      />
+                      <path
+                        d="M35.6405 17.7383C31.4012 13.0562 28.8819 8.93445 27.5148 6.30117C26.0342 3.44894 25.549 1.68029 25.5453 1.66622L25.1046 0L23.5305 0.702085C23.3466 0.784091 18.9976 2.76739 16.5608 7.64093C15.3376 10.0875 15.0929 12.8115 15.1032 14.6657C15.1091 15.7448 14.3446 16.6817 13.2853 16.8935C12.5427 17.0419 11.7787 16.811 11.2427 16.275L8.31074 13.343L7.30214 14.7338C7.19746 14.8782 4.73259 18.2776 4.28385 18.9568C2.09256 22.2739 0.949949 26.1379 0.979565 30.1312C1.01925 35.4645 3.11661 40.4612 6.88527 44.201C10.6537 47.9406 15.6665 50 21.0001 50C32.0396 49.9999 41.0209 41.0186 41.0209 29.9791C41.021 25.9764 39.0599 21.5149 35.6405 17.7383ZM25.9334 38.5316C23.8947 38.5316 22.356 37.1853 22.356 34.7811C22.356 32.3962 23.8946 31.0305 25.9334 31.0305C27.9722 31.0305 29.5109 32.3961 29.5109 34.7811C29.5109 37.1853 27.9721 38.5316 25.9334 38.5316ZM23.9716 24.8758H27.2221L18.0284 38.3392H14.778L23.9716 24.8758ZM12.4892 28.434C12.4892 26.0491 14.0279 24.6835 16.0667 24.6835C18.1055 24.6835 19.6442 26.0491 19.6442 28.434C19.6442 30.8382 18.1055 32.1846 16.0667 32.1846C14.0279 32.1846 12.4892 30.8382 12.4892 28.434Z"
+                        fill="#FFA800"
+                      />
+                    </svg>
+                  </div>
+                  <div class="sale-grid__img">
+                    <picture
+                      ><source
+                        srcset="https://dummyimage.com/498x249.gif/fff/fff"
+                        data-srcset="img/sale/3.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/498x249.gif/fff/fff"
+                        data-src="img/sale/3.png"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="sale-grid__content">
+                    <p
+                      style="
+                        font-size: 35px;
+                        color: #ffa800;
+                        font-weight: 900;
+                        margin-bottom: 10px;
+                      "
+                    >
+                      -10%
+                    </p>
+                    <p>На подарочные наборы</p>
+                  </div>
+                </div>
+                <div class="sale-grid__item">
+                  <!-- <div class="sale-grid__marker">
+      <svg
+        width="42"
+        height="50"
+        viewBox="0 0 42 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25.9337 33.1078C25.5105 33.1078 25.0874 33.4925 25.0874 34.7811C25.0874 36.0698 25.5105 36.4545 25.9337 36.4545C26.3568 36.4545 26.7799 36.0698 26.7799 34.7811C26.7799 33.4924 26.3568 33.1078 25.9337 33.1078Z"
+          fill="#FFA800"
+        />
+        <path
+          d="M16.0665 26.7607C15.6433 26.7607 15.2202 27.1455 15.2202 28.4341C15.2202 29.7227 15.6433 30.1075 16.0665 30.1075C16.4896 30.1075 16.9127 29.7227 16.9127 28.4341C16.9127 27.1455 16.4896 26.7607 16.0665 26.7607Z"
+          fill="#FFA800"
+        />
+        <path
+          d="M35.6405 17.7383C31.4012 13.0562 28.8819 8.93445 27.5148 6.30117C26.0342 3.44894 25.549 1.68029 25.5453 1.66622L25.1046 0L23.5305 0.702085C23.3466 0.784091 18.9976 2.76739 16.5608 7.64093C15.3376 10.0875 15.0929 12.8115 15.1032 14.6657C15.1091 15.7448 14.3446 16.6817 13.2853 16.8935C12.5427 17.0419 11.7787 16.811 11.2427 16.275L8.31074 13.343L7.30214 14.7338C7.19746 14.8782 4.73259 18.2776 4.28385 18.9568C2.09256 22.2739 0.949949 26.1379 0.979565 30.1312C1.01925 35.4645 3.11661 40.4612 6.88527 44.201C10.6537 47.9406 15.6665 50 21.0001 50C32.0396 49.9999 41.0209 41.0186 41.0209 29.9791C41.021 25.9764 39.0599 21.5149 35.6405 17.7383ZM25.9334 38.5316C23.8947 38.5316 22.356 37.1853 22.356 34.7811C22.356 32.3962 23.8946 31.0305 25.9334 31.0305C27.9722 31.0305 29.5109 32.3961 29.5109 34.7811C29.5109 37.1853 27.9721 38.5316 25.9334 38.5316ZM23.9716 24.8758H27.2221L18.0284 38.3392H14.778L23.9716 24.8758ZM12.4892 28.434C12.4892 26.0491 14.0279 24.6835 16.0667 24.6835C18.1055 24.6835 19.6442 26.0491 19.6442 28.434C19.6442 30.8382 18.1055 32.1846 16.0667 32.1846C14.0279 32.1846 12.4892 30.8382 12.4892 28.434Z"
+          fill="#FFA800"
+        />
+      </svg>
+    </div> -->
+                  <div class="sale-grid__img">
+                    <picture
+                      ><source
+                        srcset="https://dummyimage.com/274x361.gif/fff/fff"
+                        data-srcset="img/sale/1.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/274x361.gif/fff/fff"
+                        data-src="img/sale/1.png"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="sale-grid__content">
+                    <p>
+                      При покупке <br />
+                      Jack Daniels 1l
+                    </p>
+                    <br />
+                    <p
+                      style="
+                        color: #ffa800;
+                        font-weight: 900;
+                        text-align: right;
+                      "
+                    >
+                      Coca Cola <br />
+                      в подарок!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- .companies -->
+        <div class="companies">
+          <div class="companies__container">
+            <div class="companies__body">
+              <div class="companies__grid">
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/115x66.gif/fff/fff"
+                      data-srcset="img/index-page/companies/1.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/115x66.gif/fff/fff"
+                      data-src="img/index-page/companies/1.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/109x58.gif/fff/fff"
+                      data-srcset="img/index-page/companies/2.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/109x58.gif/fff/fff"
+                      data-src="img/index-page/companies/2.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/90x64.gif/fff/fff"
+                      data-srcset="img/index-page/companies/3.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/90x64.gif/fff/fff"
+                      data-src="img/index-page/companies/3.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/120x55.gif/fff/fff"
+                      data-srcset="img/index-page/companies/4.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/120x55.gif/fff/fff"
+                      data-src="img/index-page/companies/4.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/106x39.gif/fff/fff"
+                      data-srcset="img/index-page/companies/5.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/106x39.gif/fff/fff"
+                      data-src="img/index-page/companies/5.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      src="https://dummyimage.com/115x59.gif/fff/fff"
+                      data-srcset="img/index-page/companies/6.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/115x59.gif/fff/fff"
+                      data-src="img/index-page/companies/6.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/115x57.gif/fff/fff"
+                      data-srcset="img/index-page/companies/7.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/115x57.gif/fff/fff"
+                      data-src="img/index-page/companies/7.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/143x60.gif/fff/fff"
+                      data-srcset="img/index-page/companies/8.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/143x60.gif/fff/fff"
+                      data-src="img/index-page/companies/8.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/82x48.gif/fff/fff"
+                      data-srcset="img/index-page/companies/9.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/82x48.gif/fff/fff"
+                      data-src="img/index-page/companies/9.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/90x58.gif/fff/fff"
+                      data-srcset="img/index-page/companies/10.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/90x58.gif/fff/fff"
+                      data-src="img/index-page/companies/10.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="companies__item">
+                  <picture
+                    ><source
+                      srcset="https://dummyimage.com/98x38.gif/fff/fff"
+                      data-srcset="img/index-page/companies/11.webp"
+                      type="image/webp" />
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/98x38.gif/fff/fff"
+                      data-src="img/index-page/companies/11.jpg"
+                      alt=""
+                  /></picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.companies -->
+
+        <!-- .blog -->
+        <section class="blog">
+          <div class="blog__container">
+            <div class="blog__body">
+              <h2 class="blog__title _title">БЛОГ И НОВОСТИ</h2>
+              <div class="blog__grid">
+                <article class="blog-item">
+                  <div class="blog-item__img">
+                    <picture
+                      ><source
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-srcset="img/index-page/blog/1.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-src="img/index-page/blog/1.jpg"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="blog-item__title">Lorem ipsum</div>
+                  <p class="blog-item__text">
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation
+                  </p>
+                  <div class="blog-item__bottom">
+                    <a href="#!" class="blog-item__link">Читать полностью</a>
+                    <span class="blog-item__date">20.02.21</span>
+                  </div>
+                </article>
+                <article class="blog-item">
+                  <div class="blog-item__img">
+                    <picture
+                      ><source
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-srcset="img/index-page/blog/2.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-src="img/index-page/blog/2.jpg"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="blog-item__title">Lorem ipsum</div>
+                  <p class="blog-item__text">
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation
+                  </p>
+                  <div class="blog-item__bottom">
+                    <a href="#!" class="blog-item__link">Читать полностью</a>
+                    <span class="blog-item__date">20.02.21</span>
+                  </div>
+                </article>
+                <article class="blog-item">
+                  <div class="blog-item__img">
+                    <picture
+                      ><source
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-srcset="img/index-page/blog/3.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-src="img/index-page/blog/3.jpg"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="blog-item__title">Lorem ipsum</div>
+                  <p class="blog-item__text">
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation
+                  </p>
+                  <div class="blog-item__bottom">
+                    <a href="#!" class="blog-item__link">Читать полностью</a>
+                    <span class="blog-item__date">20.02.21</span>
+                  </div>
+                </article>
+                <article class="blog-item">
+                  <div class="blog-item__img">
+                    <picture
+                      ><source
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-srcset="img/index-page/blog/4.webp"
+                        type="image/webp" />
+                      <img
+                        class="lazy-image"
+                        src="https://dummyimage.com/365x318.gif/fff/fff"
+                        data-src="img/index-page/blog/4.jpg"
+                        alt=""
+                    /></picture>
+                  </div>
+                  <div class="blog-item__title">Lorem ipsum</div>
+                  <p class="blog-item__text">
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation
+                  </p>
+                  <div class="blog-item__bottom">
+                    <a href="#!" class="blog-item__link">Читать полностью</a>
+                    <span class="blog-item__date">20.02.21</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- .blog -->
+
+        <!-- .text-field -->
+        <div class="text-field">
+          <div class="text-field__container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia dese
+            </p>
+            <p>
+              runt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <!-- /.text-field -->
+      </main>
+      <!-- /.main -->
+
+      <!-- .footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__body">
+            <div class="footer__about">
+              <div class="footer__logo logo">
+                <span class="logo__left">ALKO</span>
+                <img
+                  class="lazy-image"
+                  src="https://dummyimage.com/40x40.gif/fff/fff"
+                  data-src="img/logo_white.svg"
+                  alt=""
+                />
+                <span class="logo__right">CLUB</span>
+              </div>
+              <div class="footer__slogan">Сервис доставки 24/7</div>
+              <p class="footer__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                assumenda?
+              </p>
+              <div class="footer__copyright">
+                Все права защищены 2021 © AlcoClub
+              </div>
+            </div>
+            <div class="footer__catalog">
+              <div class="footer__title">КАТАЛОГ</div>
+              <ul class="footer__grid">
+                <li><a href="#!">ВИНО</a></li>
+                <li><a href="#!">КОНЬЯК</a></li>
+                <li><a href="#!">ПИВО</a></li>
+                <li><a href="#!">РОМ</a></li>
+                <li><a href="#!">ШАМПАНСКОЕ</a></li>
+                <li><a href="#!">ТЕКИЛА</a></li>
+                <li><a href="#!">ЛИКЕР</a></li>
+                <li><a href="#!">ВЕРМУТ</a></li>
+                <li><a href="#!">ВОДКА</a></li>
+                <li><a href="#!">ДЖИН</a></li>
+                <li><a href="#!">ВИСКИ</a></li>
+                <li><a href="#!">НУЖНОЕ</a></li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <div class="footer__title">ИНФОРМАЦИЯ</div>
+              <ul class="footer__list">
+                <li><a href="#!">ДОСТАВКА И ОЛАТА</a></li>
+                <li><a href="#!">О НАС</a></li>
+                <li><a href="#!">БЛОГ</a></li>
+                <li><a href="#!">АКЦИИ</a></li>
+                <li><a href="#!">КОНТАКТЫ</a></li>
+              </ul>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__title">КОНТАКТЫ</div>
+              <div class="footer__phone _phone">
+                <a href="tel:+78129568009" class="_phone__top">
+                  <span class="_phone__icon _icon-phone"></span>
+                  <span class="_phone__text">956-80-09</span>
+                </a>
+                <a href="#ring_popup" class="_phone__bottom popup-link">
+                  Заказать звонок
+                </a>
+              </div>
+              <div class="footer__point _point _point_non_stop">
+                <span class="_point__icon _icon-non_stop"></span>
+                <span class="_point__text"> Работаем круглосуточно </span>
+              </div>
+              <div class="footer__point _point">
+                <span class="_point__icon _icon-location"></span>
+                <span class="_point__text"> Санкт-Петербург </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- /.footer -->
+    </div>
+
+    <div class="popup fast" id="fast_order">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title fast__title">БЫСТРЫЙ ЗАКАЗ</div>
+          <form class="fast__form">
+            <p class="popup__text fast__text">Водка Хортица 0.5</p>
+            <input type="text" class="fast__input-product" />
+            <div class="fast__item">
+              <input type="text" placeholder="Ваше имя*" />
+            </div>
+            <div class="fast__item">
+              <input type="tel" placeholder="Ваш телефон*" data-tel-input />
+            </div>
+            <button class="fast__btn _btn-filled" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup fast" id="ring_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title fast__title">ЗАКАЗАТЬ ЗВОНОК</div>
+          <form class="fast__form">
+            <div class="fast__item">
+              <input type="text" placeholder="Ваше имя*" />
+            </div>
+            <div class="fast__item">
+              <input type="tel" placeholder="Ваш телефон*" data-tel-input />
+            </div>
+            <button class="fast__btn _btn-filled" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup cart-popup" id="cart_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title cart-popup__title">
+            ТОВАР ДОБАВЛЕН В КОРЗИНУ
+          </div>
+          <div class="cart-popup__btns">
+            <a href="#!" class="cart-popup__link _btn-filled">
+              Перейти в корзину
+            </a>
+            <div class="cart-popup__close close-popup _btn-border">
+              Продолжить покупки
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-success" id="success_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title popup-success__title">
+            ЗАКАЗ УСПЕШНО ОФОРМЛЕН
+          </div>
+          <p class="popup__text popup-success__text">
+            Наш менеджер свяжется с Вами в ближайшее время.
+          </p>
+          <a href="#!" class="_btn-filled popup-success__link">
+            Перейти на главную
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220513090504"></script>
+    <!-- SCRIPTS -->
+    <script src="js/app.min.js?_v=20220513090504"></script>
+  </body>
+</html>

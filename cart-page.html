@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <style>
+      body {
+        opacity: 0;
+        background-color: #fff;
+      }
+    </style>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Russo+One&display=swap&_v=20220513090504"
+      rel="stylesheet"
+    />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220513090504"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20220513090504" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+       <!-- .header -->
+      <header class="header">
+        <div class="header__body">
+          <div class="header__top top-header">
+            <div class="top-header__container">
+              <div class="top-header__body">
+                <div class="top-header__wrapper">
+                  <div class="top-header__logo logo">
+                    <span class="logo__left">ALKO</span>
+                    <img
+                      class="lazy-image"
+                      src="https://dummyimage.com/40x40.gif/fff/fff"
+                      data-src="img/logo.svg"
+                      alt=""
+                    />
+                    <span class="logo__right">CLUB</span>
+                  </div>
+                  <div class="top-header__slogan">Сервис доставки 24/7</div>
+                </div>
+                <div class="top-header__phone _phone">
+                  <a href="tel:+78129568009" class="_phone__top">
+                    <span class="_phone__icon _icon-phone"></span>
+                    <span class="_phone__text">956-80-09</span>
+                  </a>
+                  <a href="#ring_popup" class="_phone__bottom popup-link">
+                    Заказать звонок
+                  </a>
+                </div>
+                <div class="top-header__points">
+                  <div class="top-header__point _point _point_non_stop">
+                    <span class="_point__icon _icon-non_stop"></span>
+                    <span class="_point__text"> Работаем круглосуточно </span>
+                  </div>
+                  <div class="top-header__point _point">
+                    <span class="_point__icon _icon-location"></span>
+                    <span class="_point__text"> Санкт-Петербург </span>
+                  </div>
+                </div>
+                <div class="top-header__search">
+                  <input type="text" placeholder="Поиск по каталогу" />
+                  <button class="top-header__icon _icon-search"></button>
+                </div>
+                <div class="top-header__actions">
+                  <a href="#!" class="top-header__cart _cart">
+                    <div class="_cart__summ">10 765 руб</div>
+                    <div class="_cart__details">
+                      <div class="_cart__icon _icon-cart">
+                        <div class="_cart__count">999</div>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="top-header__burger">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom bottom-header">
+            <div class="bottom-header__container">
+              <div class="bottom-header__body">
+                <div class="bottom-header__dropdown">
+                  <div class="bottom-header__dropdown-inner">
+                    <div>Каталог товаров</div>
+                    <svg
+                      class="bottom-header__dropdown-icon"
+                      width="29"
+                      height="16"
+                      viewBox="0 0 29 16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="29" height="2" rx="1" />
+                      <rect y="7" width="29" height="2" rx="1" />
+                      <rect y="14" width="29" height="2" rx="1" />
+                    </svg>
+                  </div>
+                  <ul class="bottom-header__sublist">
+                    <li><a href="#!">ВИНО</a></li>
+                    <li><a href="#!">ПИВО</a></li>
+                    <li><a href="#!">ШАМПАНСКОЕ</a></li>
+                    <li><a href="#!">ЛИКЕР</a></li>
+                    <li><a href="#!">ВОДКА</a></li>
+                    <li><a href="#!">ВИСКИ</a></li>
+                    <li><a href="#!">КОНЬЯК</a></li>
+                    <li><a href="#!">РОМ</a></li>
+                    <li><a href="#!">ТЕКИЛА</a></li>
+                    <li><a href="#!">ВЕРМУТ</a></li>
+                    <li><a href="#!">ДЖИН</a></li>
+                    <li><a href="#!">НУЖНОЕ</a></li>
+                  </ul>
+                </div>
+                <nav class="bottom-header__nav">
+                  <ul class="bottom-header__list">
+                    <li><a href="#!">Главная</a></li>
+                    <li><a href="#!">Доставка и оплата</a></li>
+                    <li><a href="#!">О нас</a></li>
+                    <li><a href="#!">Блог</a></li>
+                    <li><a href="#!">Акции</a></li>
+                    <li><a href="#!">Контакты</a></li>
+                  </ul>
+                </nav>
+                <div class="top-header__search">
+                  <input type="text" placeholder="Поиск по каталогу" />
+                  <button class="top-header__icon _icon-search"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /.header -->
+
+      <!-- .main -->
+      <main class="main">
+        <div
+          class="spacer"
+          style="background-image: url('img/general/spacer_bg.jpg')"
+        >
+          <div class="spacer__container">
+            <div class="spacer__body">
+              <div class="spacer__title">КОРЗИНА</div>
+            </div>
+          </div>
+        </div>
+        <!-- .crumbs -->
+        <div class="crumbs">
+          <div class="crumbs__container">
+            <div class="crumbs__body">
+              <ul class="crumbs__list">
+                <li><a href="#!">Главная</a></li>
+                <li>Контакты</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /.crumbs -->
+
+        <form class="cart-form">
+          <div class="cart-page">
+            <div class="cart-page__container">
+              <div class="cart-page__body">
+                <div class="cart-page__flex">
+                  <div class="cart-page__content">
+                    <div class="cart-page__items">
+                      <div class="cart-page__item item-cart">
+                        <div class="item-cart__left">
+                          <div class="item-cart__img">
+                            <picture
+                              ><source
+                                srcset="https://dummyimage.com/97x124.gif/fff/fff" data-srcset="img/items/small.webp"
+                                type="image/webp" />
+                              <img class="lazy-image" src="https://dummyimage.com/97x124.gif/fff/fff" data-src="img/items/small.jpg" alt=""
+                            /></picture>
+                          </div>
+                          <div class="item-cart__title">
+                            ТЕКИЛА ОЛЬМЕКА СИЛЬВЕР 0.7L
+                          </div>
+                          <input
+                            value="ТЕКИЛА ОЛЬМЕКА СИЛЬВЕР 0.7L"
+                            type="text"
+                            class="item-cart__input-title"
+                          />
+                        </div>
+                        <div class="item-cart__price">2010 руб</div>
+                        <div class="item-cart__actions">
+                          <button
+                            type="button"
+                            class="item-cart__minus item-cart__button"
+                          >
+                            —
+                          </button>
+                          <input
+                            type="number"
+                            class="item-cart__input"
+                            value="1"
+                            min="1"
+                            max="99"
+                          />
+                          <button
+                            type="button"
+                            class="item-cart__plus item-cart__button _icon-plus"
+                          ></button>
+                        </div>
+                        <div class="item-cart__right">
+                          <div class="item-cart__total">2010 руб</div>
+                          <button
+                            type="button"
+                            class="item-cart__delete _icon-plus"
+                          ></button>
+                        </div>
+                      </div>
+                      <div class="cart-page__item item-cart">
+                        <div class="item-cart__left">
+                          <div class="item-cart__img">
+                            <picture
+                              ><source
+                                srcset="https://dummyimage.com/97x124.gif/fff/fff" data-srcset="img/items/small.webp"
+                                type="image/webp" />
+                              <img class="lazy-image" src="https://dummyimage.com/97x124.gif/fff/fff" data-src="img/items/small.jpg" alt=""
+                            /></picture>
+                          </div>
+                          <div class="item-cart__title">
+                            ТЕКИЛА ОЛЬМЕКА СИЛЬВЕР 0.7L
+                          </div>
+                          <input
+                            value="ТЕКИЛА ОЛЬМЕКА СИЛЬВЕР 0.7L"
+                            type="text"
+                            class="item-cart__input-title"
+                          />
+                        </div>
+                        <div class="item-cart__price">2010 руб</div>
+                        <div class="item-cart__actions">
+                          <button
+                            type="button"
+                            class="item-cart__minus item-cart__button"
+                          >
+                            —
+                          </button>
+                          <input
+                            type="number"
+                            class="item-cart__input"
+                            value="1"
+                            min="1"
+                            max="99"
+                          />
+                          <button
+                            type="button"
+                            class="item-cart__plus item-cart__button _icon-plus"
+                          ></button>
+                        </div>
+                        <div class="item-cart__right">
+                          <div class="item-cart__total">2010 руб</div>
+                          <button
+                            type="button"
+                            class="item-cart__delete _icon-plus"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cart-page__row">
+                      <span>Сумма заказа:</span>
+                      <div class="cart-page__cost-items cart-page__row-value">
+                        6030 руб
+                      </div>
+                    </div>
+                    <div class="cart-page__row">
+                      <span>Стоимость доставки:</span>
+                      <div
+                        class="cart-page__cost-delivery cart-page__row-value"
+                      >
+                        400 руб
+                      </div>
+                    </div>
+                    <div class="cart-page__summary">
+                      <span>ИТОГО:</span>
+                      <div class="cart-page__total">6430 руб</div>
+                      <input
+                        type="text"
+                        class="cart-page__input-total"
+                        value="6430 руб"
+                      />
+                    </div>
+                    <a
+                      href="#order"
+                      class="cart-page__scroll _btn-filled _anchor-scroll"
+                      >Оформить заказ</a
+                    >
+                  </div>
+                  <div class="cart-page__sale">
+                    <!-- .side-sale -->
+                    <div class="side-sale">
+                      <div class="side-sale__img">
+                        <picture
+                          ><source srcset="https://dummyimage.com/274x361.gif/fff/fff" data-srcset="img/sale/1.webp" type="image/webp" />
+                          <img class="lazy-image" src="https://dummyimage.com/274x361.gif/fff/fff" data-src="img/sale/1.png" alt=""
+                        /></picture>
+                      </div>
+                      <div class="side-sale__content">
+                        <p>
+                          При покупке <br />
+                          Jack Daniels 1l
+                        </p>
+                        <br />
+                        <p
+                          style="
+                            color: #ffa800;
+                            font-weight: 900;
+                            text-align: right;
+                          "
+                        >
+                          Coca Cola <br />
+                          в подарок!
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /.side-sale -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <section class="order" id="order">
+            <div class="order__container">
+              <div class="order__body">
+                <h2 class="order__title _title">ОФОРМЛЕНИЕ ЗАКАЗА</h2>
+                <div class="order__flex">
+                  <div class="order__main">
+                    <div class="order__grid">
+                      <div class="order__item">
+                        <div class="order__label">Ваше имя*</div>
+                        <input
+                          type="text"
+                          class="order__input"
+                          placeholder="Введите имя"
+                        />
+                      </div>
+                      <div class="order__item">
+                        <div class="order__label">Номер телефона*</div>
+                        <input
+                          type="tel"
+                          class="order__input"
+                          placeholder="+7"
+                          data-tel-input
+                        />
+                      </div>
+                    </div>
+                    <div class="order__item">
+                      <div class="order__label">Адрес доставки*</div>
+                      <input
+                        type="text"
+                        class="order__input"
+                        placeholder="город, улица, номер дома, номер квартиры"
+                      />
+                    </div>
+                    <div class="order__item">
+                      <div class="order__label">Комментарий к заказу</div>
+                      <textarea
+                        name="comment"
+                        class="order__textarea"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="order__addition">
+                    <div class="order__item">
+                      <div class="order__label">Выберите способ доставки*</div>
+                      <div class="order__radios">
+                        <div class="order__radio">
+                          <input
+                            checked
+                            name="deliver"
+                            type="radio"
+                            id="deliver_1"
+                          />
+                          <label for="deliver_1"
+                            ><span
+                              >Доставка по Санкт-Петербургу 400 руб
+                            </span></label
+                          >
+                        </div>
+                        <div class="order__radio">
+                          <input name="deliver" type="radio" id="deliver_2" />
+                          <label for="deliver_2"
+                            ><span>Доставка за КАД 600 руб</span></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="order__item">
+                      <div class="order__label">Выберите способ оплаты*</div>
+                      <div class="order__radios">
+                        <div class="order__radio">
+                          <input
+                            checked
+                            name="payment"
+                            type="radio"
+                            id="payment_1"
+                          />
+                          <label for="payment_1"
+                            ><span>Оплата наличными курьеру</span></label
+                          >
+                        </div>
+                        <div class="order__radio">
+                          <input name="payment" type="radio" id="payment_2" />
+                          <label for="payment_2"
+                            ><span
+                              >Оплата переводом по карте курьеру</span
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__btns">
+                  <a
+                    href="#success_popup"
+                    class="order__link _btn-border popup-link"
+                    >Вернуться на сайт</a
+                  >
+                  <button class="order__btn _btn-filled" type="submit">
+                    Оформить заказ
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </form>
+      </main>
+      <!-- /.main -->
+
+      <!-- .footer -->
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__body">
+            <div class="footer__about">
+              <div class="footer__logo logo">
+                <span class="logo__left">ALKO</span>
+                <img
+                  class="lazy-image"
+                  src="https://dummyimage.com/40x40.gif/fff/fff"
+                  data-src="img/logo_white.svg"
+                  alt=""
+                />
+                <span class="logo__right">CLUB</span>
+              </div>
+              <div class="footer__slogan">Сервис доставки 24/7</div>
+              <p class="footer__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                assumenda?
+              </p>
+              <div class="footer__copyright">
+                Все права защищены 2021 © AlcoClub
+              </div>
+            </div>
+            <div class="footer__catalog">
+              <div class="footer__title">КАТАЛОГ</div>
+              <ul class="footer__grid">
+                <li><a href="#!">ВИНО</a></li>
+                <li><a href="#!">КОНЬЯК</a></li>
+                <li><a href="#!">ПИВО</a></li>
+                <li><a href="#!">РОМ</a></li>
+                <li><a href="#!">ШАМПАНСКОЕ</a></li>
+                <li><a href="#!">ТЕКИЛА</a></li>
+                <li><a href="#!">ЛИКЕР</a></li>
+                <li><a href="#!">ВЕРМУТ</a></li>
+                <li><a href="#!">ВОДКА</a></li>
+                <li><a href="#!">ДЖИН</a></li>
+                <li><a href="#!">ВИСКИ</a></li>
+                <li><a href="#!">НУЖНОЕ</a></li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <div class="footer__title">ИНФОРМАЦИЯ</div>
+              <ul class="footer__list">
+                <li><a href="#!">ДОСТАВКА И ОЛАТА</a></li>
+                <li><a href="#!">О НАС</a></li>
+                <li><a href="#!">БЛОГ</a></li>
+                <li><a href="#!">АКЦИИ</a></li>
+                <li><a href="#!">КОНТАКТЫ</a></li>
+              </ul>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__title">КОНТАКТЫ</div>
+              <div class="footer__phone _phone">
+                <a href="tel:+78129568009" class="_phone__top">
+                  <span class="_phone__icon _icon-phone"></span>
+                  <span class="_phone__text">956-80-09</span>
+                </a>
+                <a href="#ring_popup" class="_phone__bottom popup-link">
+                  Заказать звонок
+                </a>
+              </div>
+              <div class="footer__point _point _point_non_stop">
+                <span class="_point__icon _icon-non_stop"></span>
+                <span class="_point__text"> Работаем круглосуточно </span>
+              </div>
+              <div class="footer__point _point">
+                <span class="_point__icon _icon-location"></span>
+                <span class="_point__text"> Санкт-Петербург </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- /.footer -->
+    </div>
+
+    <div class="popup fast" id="ring_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title fast__title">ЗАКАЗАТЬ ЗВОНОК</div>
+          <form class="fast__form">
+            <div class="fast__item">
+              <input type="text" placeholder="Ваше имя*" />
+            </div>
+            <div class="fast__item">
+              <input type="tel" placeholder="Ваш телефон*" data-tel-input />
+            </div>
+            <button class="fast__btn _btn-filled" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup fast" id="fast_order">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title fast__title">БЫСТРЫЙ ЗАКАЗ</div>
+          <form class="fast__form">
+            <p class="popup__text fast__text">Водка Хортица 0.5</p>
+            <input type="text" class="fast__input-product" />
+            <div class="fast__item">
+              <input type="text" placeholder="Ваше имя*" />
+            </div>
+            <div class="fast__item">
+              <input type="tel" placeholder="Ваш телефон*" data-tel-input />
+            </div>
+            <button class="fast__btn _btn-filled" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup cart-popup" id="cart_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title cart-popup__title">
+            ТОВАР ДОБАВЛЕН В КОРЗИНУ
+          </div>
+          <div class="cart-popup__btns">
+            <a href="#!" class="cart-popup__link _btn-filled">
+              Перейти в корзину
+            </a>
+            <div class="cart-popup__close close-popup _btn-border">
+              Продолжить покупки
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-success" id="success_popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="popup__title popup-success__title">
+            ЗАКАЗ УСПЕШНО ОФОРМЛЕН
+          </div>
+          <p class="popup__text popup-success__text">
+            Наш менеджер свяжется с Вами в ближайшее время.
+          </p>
+          <a href="#!" class="_btn-filled popup-success__link">
+            Перейти на главную
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220513090504"></script>
+    <!-- SCRIPTS -->
+    <script src="js/app.min.js?_v=20220513090504"></script>
+  </body>
+</html>
